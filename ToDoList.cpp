@@ -13,7 +13,7 @@ struct Task{
 void addTask(vector<Task>& todoList, const string& description){
 	todoList.push_back(Task(description));
 	cout << "Task added : "<< description <<endl;
-}
+};
 
 void completeTask(vector<Task>& todoList, int index){
 	if(index >= 0 && index < todoList.size()){
